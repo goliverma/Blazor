@@ -1,0 +1,127 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/goli/Desktop/Blazor/EmployeeManag.Api/EmployeeManag.Api.csproj": {}
+  },
+  "projects": {
+    "/home/goli/Desktop/Blazor/EmployeeManag.Api/EmployeeManag.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/goli/Desktop/Blazor/EmployeeManag.Api/EmployeeManag.Api.csproj",
+        "projectName": "EmployeeManag.Api",
+        "projectPath": "/home/goli/Desktop/Blazor/EmployeeManag.Api/EmployeeManag.Api.csproj",
+        "packagesPath": "/home/goli/.nuget/packages/",
+        "outputPath": "/home/goli/Desktop/Blazor/EmployeeManag.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/goli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/home/goli/Desktop/Blazor/EmployeeManag.Models/EmployeeManag.Models.csproj": {
+                "projectPath": "/home/goli/Desktop/Blazor/EmployeeManag.Models/EmployeeManag.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/goli/Desktop/Blazor/EmployeeManag.Models/EmployeeManag.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/goli/Desktop/Blazor/EmployeeManag.Models/EmployeeManag.Models.csproj",
+        "projectName": "EmployeeManag.Models",
+        "projectPath": "/home/goli/Desktop/Blazor/EmployeeManag.Models/EmployeeManag.Models.csproj",
+        "packagesPath": "/home/goli/.nuget/packages/",
+        "outputPath": "/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/goli/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

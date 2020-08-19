@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "a5xaHiChhFY9wU9/OnMBBuzTFYjR5xJeRr0zPitSceu4s62SpJgGCnp8j9b7JFE4kFcVWEGwCYEn+uApRjJ2Ag==",
+  "success": true,
+  "projectFilePath": "/home/goli/Desktop/Blazor/EmployeeManag.Web/EmployeeManag.Web.csproj",
+  "expectedPackageFiles": [
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.blazor.httpclient/3.2.0-preview3.20168.3/microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/system.text.json/4.7.1/system.text.json.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

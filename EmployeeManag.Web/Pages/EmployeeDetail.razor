@@ -1,0 +1,30 @@
+@page "/detail/{id:int}"
+@inherits EmployeeDetailBase
+
+<h3>Employee Detail</h3>
+@if(Employee == null)
+{
+    <h1 class="justify-content-center">Page content is loading</h1>
+}
+else{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    <h1>@Employee.FirstName @Employee.LastName</h1>
+                </div>
+                <div class="card-body text-center">
+                    <img class="card-img-top" src="@Employee.PhotoPath"/>
+                    <h4>Employee Id : @Employee.EmployeeId</h4>
+                    <h4>Employee Email : @Employee.Email</h4>
+                    <h4>Employee Department : @(Employee.Department == null ? "N/A" : Employee.Department.DepartmentName)</h4>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="/" class="btn btn-primary">Back</a>
+                    <a href=@($"/editemployee/{id:int}/{Employee.EmployeeId}") class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}

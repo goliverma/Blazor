@@ -1,0 +1,20 @@
+@page "/"
+@inherits EmployeeListBase
+
+<h3>Employee List Count=@SelectedEmployeeCount</h3>
+<input type="checkbox" id="showFooter" @bind="ShowFooter" />
+<label for="showFooter">Show Footer</label>
+@if(Employees == null)
+{
+
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var item in Employees)
+        {
+            <DisplayEmployee Employee="item" ShowFooter="ShowFooter" 
+            OnEmployeeSelection="EmployeeSelectionCh"></DisplayEmployee>
+        }
+    </div>
+}
