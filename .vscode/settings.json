@@ -1,0 +1,4 @@
+{
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html-css-class-completion.excludeGlobPattern": "**/*.{css,html}"
+}
