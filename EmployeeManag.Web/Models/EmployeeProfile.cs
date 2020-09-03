@@ -7,7 +7,9 @@ namespace EmployeeManag.Web.Models
     {
         public EmployeeProfile()
         {
-            CreateMap<Employee, EditEmployeeModel>();
+            CreateMap<Employee, EditEmployeeModel>()
+                .ForMember(dest => dest.ConfirmEmail,
+                            opt => opt.MapFrom(src => src.Email));
             CreateMap<EditEmployeeModel, Employee>();
         }
     }

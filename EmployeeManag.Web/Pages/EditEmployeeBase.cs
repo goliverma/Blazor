@@ -27,18 +27,6 @@ namespace EmployeeManag.Web.Pages
             Employee = await EmployeeServices.GetEmployee(id);
             Departments = (await departmentService.GetDepartments()).ToList();
             Mapper.Map(Employee, EditEmployeeModel);
-            // EditEmployeeModel = new EditEmployeeModel{
-            //     EmployeeId = Employee.EmployeeId,
-            //     FirstName = Employee.FirstName,
-            //     LastName = Employee.LastName,
-            //     Email = Employee.Email,
-            //     ConfirmEmail = Employee.Email,
-            //     DepartmentId = Employee.DepartmentId,
-            //     Gender = Employee.Gender,
-            //     DateOfBirth = Employee.DateOfBirth,
-            //     PhotoPath = Employee.PhotoPath,
-            //     Department = Employee.Department
-            // };
         }
     }
 }
