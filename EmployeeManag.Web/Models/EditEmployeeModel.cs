@@ -7,17 +7,18 @@ namespace EmployeeManag.Web.Models
     public class EditEmployeeModel
     {
         public int EmployeeId { get; set; }
-        [Required]
+        [Required, Display(Name="First Name")]
         public string FirstName { get; set; }
+        [Required, Display(Name="Last Name")]
         public string LastName { get; set; }
-        [EmailAddress]
+        [EmailAddress, Display(Name="Email")]
         public string Email { get; set; }
-        [Compare("Email")]
+        [Compare("Email"), Display(Name="Confirm Email")]
         public string ConfirmEmail { get; set; }
         public DateTime DateOfBirth { get; set; }
         public int DepartmentId { get; set; }
         public Gender Gender { get; set; }
         public string PhotoPath { get; set; }
-        public Department Department { get; set; }
+        public Department Department { get; set; } = new Department();
     }
 }
