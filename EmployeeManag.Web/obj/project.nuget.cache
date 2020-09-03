@@ -1,10 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "a5xaHiChhFY9wU9/OnMBBuzTFYjR5xJeRr0zPitSceu4s62SpJgGCnp8j9b7JFE4kFcVWEGwCYEn+uApRjJ2Ag==",
+  "dgSpecHash": "c99SIFW7325/7l0Vnvv3PlaYKLcAyTMAwTgu62HMKMMON9teGKg/1i+83pZrGPMxTlQj8DdBK3i+QlQUWJFNvA==",
   "success": true,
   "projectFilePath": "/home/goli/Desktop/Blazor/EmployeeManag.Web/EmployeeManag.Web.csproj",
   "expectedPackageFiles": [
+    "/home/goli/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
+    "/home/goli/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.authorization/3.1.3/microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "/home/goli/.nuget/packages/microsoft.aspnetcore.blazor.httpclient/3.2.0-preview3.20168.3/microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.components/3.1.3/microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.3/microsoft.aspnetcore.components.analyzers.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.components.dataannotations.validation/3.2.0-rc1.20223.4/microsoft.aspnetcore.components.dataannotations.validation.3.2.0-rc1.20223.4.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.components.forms/3.1.3/microsoft.aspnetcore.components.forms.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.aspnetcore.metadata/3.1.3/microsoft.aspnetcore.metadata.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.3/microsoft.extensions.dependencyinjection.abstractions.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.3/microsoft.extensions.logging.abstractions.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.extensions.options/3.1.3/microsoft.extensions.options.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/microsoft.jsinterop/3.1.3/microsoft.jsinterop.3.1.3.nupkg.sha512",
+    "/home/goli/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/home/goli/.nuget/packages/system.text.json/4.7.1/system.text.json.4.7.1.nupkg.sha512"
   ],
   "logs": []

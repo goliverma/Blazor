@@ -52,3 +52,15 @@
 /home/goli/Desktop/Blazor/EmployeeManag.Web/obj/Debug/netcoreapp3.1/Razor/Pages/DisplayEmployee.razor.g.cs
 /home/goli/Desktop/Blazor/EmployeeManag.Web/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/EditEmployee.razor.g.cs
 /home/goli/Desktop/Blazor/EmployeeManag.Web/obj/Debug/netcoreapp3.1/Razor/Pages/EditEmployee.razor.g.cs
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Authorization.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.DataAnnotations.Validation.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Components.Forms.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Metadata.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.JSInterop.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

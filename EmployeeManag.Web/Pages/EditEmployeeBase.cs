@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using EmployeeManag.Models;
 using EmployeeManag.Web.Models;
 using EmployeeManag.Web.Services;
@@ -19,21 +20,25 @@ namespace EmployeeManag.Web.Pages
         public EditEmployeeModel EditEmployeeModel { get; set; } = new EditEmployeeModel();
         [Parameter]
         public int id { get; set; }
+        [Inject]
+        public IMapper Mapper { get; set; }
         protected async override Task OnInitializedAsync()
         {
             Employee = await EmployeeServices.GetEmployee(id);
             Departments = (await departmentService.GetDepartments()).ToList();
-            EditEmployeeModel = new EditEmployeeModel{
-                EmployeeId = Employee.EmployeeId,
-                FirstName = Employee.FirstName,
-                LastName = Employee.LastName,
-                Email = Employee.Email,
-                ConfirmEmail = Employee.Email,
-                DepartmentId = Employee.DepartmentId,
-                Gender = Employee.Gender,
-                DateOfBirth = Employee.DateOfBirth,
-                PhotoPath = Employee.PhotoPath
-            };
+            Mapper.Map(Employee, EditEmployeeModel);
+            // EditEmployeeModel = new EditEmployeeModel{
+            //     EmployeeId = Employee.EmployeeId,
+            //     FirstName = Employee.FirstName,
+            //     LastName = Employee.LastName,
+            //     Email = Employee.Email,
+            //     ConfirmEmail = Employee.Email,
+            //     DepartmentId = Employee.DepartmentId,
+            //     Gender = Employee.Gender,
+            //     DateOfBirth = Employee.DateOfBirth,
+            //     PhotoPath = Employee.PhotoPath,
+            //     Department = Employee.Department
+            // };
         }
     }
 }
