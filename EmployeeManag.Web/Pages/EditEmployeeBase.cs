@@ -22,11 +22,22 @@ namespace EmployeeManag.Web.Pages
         public int id { get; set; }
         [Inject]
         public IMapper Mapper { get; set; }
+        [Inject]
+        public NavigationManager navigationManager { get; set; }
         protected async override Task OnInitializedAsync()
         {
             Employee = await EmployeeServices.GetEmployee(id);
             Departments = (await departmentService.GetDepartments()).ToList();
             Mapper.Map(Employee, EditEmployeeModel);
+        }
+        protected async Task HandleValidSubmit()
+        {
+            Mapper.Map(EditEmployeeModel, Employee);
+            var result = await EmployeeServices.UpdateEmployee(Employee);
+            if(result != null)
+            {
+                navigationManager.NavigateTo("/");
+            }
         }
     }
 }

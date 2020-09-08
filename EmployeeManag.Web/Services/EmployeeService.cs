@@ -24,5 +24,10 @@ namespace EmployeeManag.Web.Services
         {
             return await httpClient.GetJsonAsync<IEnumerable<Employee>>("api/employees");
         }
+
+        public async Task<Employee> UpdateEmployee(Employee employee)
+        {
+           return await httpClient.PutJsonAsync<Employee>("api/employees", employee); 
+        }
     }
 }

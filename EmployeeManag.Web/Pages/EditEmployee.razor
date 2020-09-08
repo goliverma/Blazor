@@ -1,9 +1,9 @@
 @page "/editemployee/{id:int}"
 
 @inherits EditEmployeeBase
-<EditForm Model="@EditEmployeeModel">
+<EditForm Model="@EditEmployeeModel" OnValidSubmit="HandleValidSubmit">
     <h3>Edit Employee</h3>
-    <ObjectGraphDataAnnotationsValidator />
+    <DataAnnotationsValidator />
     <ValidationSummary />
     <hr />
     <div class="form-group row">
@@ -65,14 +65,6 @@
         <div class="col-sm-10">
             <InputDate id="dateOfBirth" @bind-Value="EditEmployeeModel.DateOfBirth" class="form-control" >
             </InputDate>
-        </div>
-    </div>
-    <div class="form-group row">
-        <label for="departmentName" class="col-sm-2 col-form-label">Department Name</label>
-        <div class="col-sm-10">
-            <InputText id="departmentName" class="form-control" placeholder="Department Name"
-            @bind-Value="EditEmployeeModel.Department.DepartmentName" />
-            <span><ValidationMessage For="(()=> EditEmployeeModel.Department.DepartmentName)"></ValidationMessage></span>
         </div>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
