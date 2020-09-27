@@ -21,6 +21,7 @@ namespace EmployeeManag.Api
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseUrls("https://localhost:6001;http://localhost:6000");
                 });
     }
 }
