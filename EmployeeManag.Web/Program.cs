@@ -23,6 +23,7 @@ namespace EmployeeManag.Web
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseUrls("https://localhost:4001;http://localhost:4000");
                 });
     }
 }
