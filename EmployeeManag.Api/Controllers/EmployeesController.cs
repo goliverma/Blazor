@@ -89,13 +89,17 @@ namespace EmployeeManag.Api.Controllers
                 "Error Retrieving data from database");
             }
         }
-        [HttpPut()]
+        [HttpPut]
         public async Task<ActionResult<Employee>> UpdateEmployee(Employee employee)
         {
             try
             {
-                var emp = await Context.UpdateEmployee(employee);
-                return emp;
+                var emp = await Context.GetEmployee(employee.EmployeeId);
+                if(emp == null)
+                {
+                    return NotFound($"Employee with id {employee.EmployeeId} not found");
+                }
+                return await Context.UpdateEmployee(employee);
             }
             catch (Exception)
             {

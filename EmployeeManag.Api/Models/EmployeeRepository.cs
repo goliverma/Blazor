@@ -66,11 +66,23 @@ namespace EmployeeManag.Api.Models
 
         public async Task<Employee> UpdateEmployee(Employee employee)
         {
-            var result = context.Employees.Attach(employee);
-            if(result != null)
+            // var emp = context.Employees.Attach(employee);
+            var emp = await GetEmployee(employee.EmployeeId);
+            if(emp != null)
             {
-                result.State = EntityState.Modified;
+                // await Task.Run(async () => {
+                //     emp.State = EntityState.Modified;
+                //     await context.SaveChangesAsync();
+                // });
+                emp.FirstName = employee.FirstName;
+                emp.LastName = employee.LastName;
+                emp.Email = employee.Email;
+                emp.Gender = employee.Gender;
+                emp.DateOfBirth = employee.DateOfBirth;
+                emp.DepartmentId = employee.DepartmentId;
+                emp.PhotoPath = employee.PhotoPath;
                 await context.SaveChangesAsync();
+                return emp;
             }
             return null;
         }
