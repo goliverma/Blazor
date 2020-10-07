@@ -436,6 +436,92 @@
         }
       },
       {
+        "HashCode": 136770394,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EditEmployee",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 199093172,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EditEmployee",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -698111130,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EmployeeList",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList"
+        }
+      },
+      {
+        "HashCode": 518818859,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EmployeeList",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.EmployeeList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1371746247,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
@@ -523,59 +609,6 @@
         }
       },
       {
-        "HashCode": 136770394,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EditEmployee",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee"
-        }
-      },
-      {
-        "HashCode": 199093172,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EditEmployee",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManag.Web.Pages.EditEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "id"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1535527024,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.EmployeeDetail",
@@ -625,39 +658,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeDetail",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -698111130,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EmployeeList",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList"
-        }
-      },
-      {
-        "HashCode": 518818859,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EmployeeList",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManag.Web.Pages.EmployeeList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
