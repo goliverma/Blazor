@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -24,16 +25,37 @@ namespace EmployeeManag.Web.Pages
         public IMapper Mapper { get; set; }
         [Inject]
         public NavigationManager navigationManager { get; set; }
+        public string PageHeaderText { get; set; } = null;
         protected async override Task OnInitializedAsync()
         {
-            Employee = await EmployeeServices.GetEmployee(id);
+            if(id != 0)
+            {
+                PageHeaderText = "Edit Employee";
+                Employee = await EmployeeServices.GetEmployee(id);
+            }
+            else
+            {
+                PageHeaderText = "Create Employee";
+                Employee = new Employee(){
+                    DepartmentId = 1,
+                    DateOfBirth = DateTime.Now,
+                    PhotoPath = "images/noimage.png"
+                };
+            }
             Departments = (await departmentService.GetDepartments()).ToList();
             Mapper.Map(Employee, EditEmployeeModel);
         }
         protected async Task HandleValidSubmit()
         {
             Mapper.Map(EditEmployeeModel, Employee);
-            var result = await EmployeeServices.UpdateEmployee(Employee);
+            Employee result = null;
+            if(Employee.EmployeeId != 0)
+            {
+                result = await EmployeeServices.updateEmployee(Employee);
+            }
+            else{
+                result = await EmployeeServices.createEmployee(Employee);
+            }
             if(result != null)
             {
                 navigationManager.NavigateTo("/");

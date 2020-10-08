@@ -489,39 +489,6 @@
         }
       },
       {
-        "HashCode": -698111130,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EmployeeList",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList"
-        }
-      },
-      {
-        "HashCode": 518818859,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EmployeeList",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManag.Web.Pages.EmployeeList"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1371746247,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
@@ -658,6 +625,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeDetail",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -698111130,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EmployeeList",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList"
+        }
+      },
+      {
+        "HashCode": 518818859,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EmployeeList",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.EmployeeList"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
