@@ -117,7 +117,7 @@ namespace EmployeeManag.Api.Controllers
                 {
                     return NotFound($"Employee with Id={id} not found");
                 }
-                return emp;
+                return await Context.DeleteEmployee(id);
             }
             catch (Exception)
             {

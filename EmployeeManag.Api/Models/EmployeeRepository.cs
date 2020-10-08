@@ -21,13 +21,15 @@ namespace EmployeeManag.Api.Models
             return result.Entity;
         }
 
-        public async Task<Employee> DeleteEmployee(int employee)
+        public async Task<Employee> DeleteEmployee(int id)
         {
-            var result = await context.Employees.FirstOrDefaultAsync(e => e.EmployeeId == employee);
+            var result = await context.Employees.FirstOrDefaultAsync(e => e.EmployeeId == id);
             if(result != null)
             {
-                context.Employees.Remove(result);
-                await context.SaveChangesAsync();
+                await Task.Run(async () => {
+                    context.Employees.Remove(result);
+                    await context.SaveChangesAsync();
+                });
                 return result;
             }
             return null;
