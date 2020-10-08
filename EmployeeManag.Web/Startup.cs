@@ -27,10 +27,10 @@ namespace EmployeeManag.Web
             services.AddServerSideBlazor();
             services.AddAutoMapper(typeof(EmployeeProfile));;
             services.AddHttpClient<IEmployeeService, EmployeeService>(client => {
-                client.BaseAddress = new Uri("http://localhost:6000/");
+                client.BaseAddress = new Uri("http://localhost:4003/");
             });
             services.AddHttpClient<IDepartmentService, DepartmentService>(client => {
-                client.BaseAddress = new Uri("http://localhost:6000/");
+                client.BaseAddress = new Uri("http://localhost:4003/");
             });
         }
 
