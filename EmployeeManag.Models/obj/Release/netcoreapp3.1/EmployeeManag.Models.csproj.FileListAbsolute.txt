@@ -1,0 +1,9 @@
+/home/goli/Desktop/Blazor/EmployeeManag.Models/bin/Release/netcoreapp3.1/EmployeeManag.Models.deps.json
+/home/goli/Desktop/Blazor/EmployeeManag.Models/bin/Release/netcoreapp3.1/EmployeeManag.Models.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Models/bin/Release/netcoreapp3.1/EmployeeManag.Models.pdb
+/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/Release/netcoreapp3.1/EmployeeManag.Models.csprojAssemblyReference.cache
+/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/Release/netcoreapp3.1/EmployeeManag.Models.AssemblyInfoInputs.cache
+/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/Release/netcoreapp3.1/EmployeeManag.Models.AssemblyInfo.cs
+/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/Release/netcoreapp3.1/EmployeeManag.Models.csproj.CoreCompileInputs.cache
+/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/Release/netcoreapp3.1/EmployeeManag.Models.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Models/obj/Release/netcoreapp3.1/EmployeeManag.Models.pdb

@@ -210,7 +210,7 @@
         }
       },
       {
-        "HashCode": 507391739,
+        "HashCode": -1019866063,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployeeBase",
         "AssemblyName": "EmployeeManag.Web",
@@ -245,6 +245,15 @@
               "Common.PropertyName": "OnEmployeeSelection",
               "Components.EventCallback": "True"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeDeleted",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeDeleted",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
@@ -253,7 +262,7 @@
         }
       },
       {
-        "HashCode": 303446725,
+        "HashCode": 1188246793,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployeeBase",
         "AssemblyName": "EmployeeManag.Web",
@@ -286,6 +295,15 @@
             "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
             "Metadata": {
               "Common.PropertyName": "OnEmployeeSelection",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeDeleted",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeDeleted",
               "Components.EventCallback": "True"
             }
           }
@@ -436,7 +454,7 @@
         }
       },
       {
-        "HashCode": 1371746247,
+        "HashCode": -2116471157,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
         "AssemblyName": "EmployeeManag.Web",
@@ -471,6 +489,15 @@
               "Common.PropertyName": "OnEmployeeSelection",
               "Components.EventCallback": "True"
             }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeDeleted",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeDeleted",
+              "Components.EventCallback": "True"
+            }
           }
         ],
         "Metadata": {
@@ -479,7 +506,7 @@
         }
       },
       {
-        "HashCode": 2036085470,
+        "HashCode": 1086595058,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
         "AssemblyName": "EmployeeManag.Web",
@@ -512,6 +539,15 @@
             "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
             "Metadata": {
               "Common.PropertyName": "OnEmployeeSelection",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeDeleted",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeDeleted",
               "Components.EventCallback": "True"
             }
           }
@@ -662,35 +698,35 @@
         }
       },
       {
-        "HashCode": 1007326281,
+        "HashCode": 1427951791,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Shared.NavMenu",
+        "Name": "EmployeeManag.Web.App",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu"
+          "Common.TypeName": "EmployeeManag.Web.App"
         }
       },
       {
-        "HashCode": -1146443938,
+        "HashCode": 1748410804,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Shared.NavMenu",
+        "Name": "EmployeeManag.Web.App",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EmployeeManag.Web.Shared.NavMenu"
+            "TagName": "EmployeeManag.Web.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu",
+          "Common.TypeName": "EmployeeManag.Web.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -791,35 +827,35 @@
         }
       },
       {
-        "HashCode": 1427951791,
+        "HashCode": 1007326281,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.App",
+        "Name": "EmployeeManag.Web.Shared.NavMenu",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.App"
+          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 1748410804,
+        "HashCode": -1146443938,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.App",
+        "Name": "EmployeeManag.Web.Shared.NavMenu",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EmployeeManag.Web.App"
+            "TagName": "EmployeeManag.Web.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.App",
+          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
