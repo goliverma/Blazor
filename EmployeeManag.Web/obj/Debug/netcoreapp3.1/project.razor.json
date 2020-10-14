@@ -523,6 +523,59 @@
         }
       },
       {
+        "HashCode": 136770394,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EditEmployee",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee"
+        }
+      },
+      {
+        "HashCode": 199093172,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.EditEmployee",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.EditEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "id",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1535527024,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.EmployeeDetail",
@@ -609,88 +662,35 @@
         }
       },
       {
-        "HashCode": 136770394,
+        "HashCode": 1007326281,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EditEmployee",
+        "Name": "EmployeeManag.Web.Shared.NavMenu",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EditEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "id"
-            }
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee"
+          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 199093172,
+        "HashCode": -1146443938,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.EditEmployee",
+        "Name": "EmployeeManag.Web.Shared.NavMenu",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EmployeeManag.Web.Pages.EditEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "id",
-            "TypeName": "System.Int32",
-            "Metadata": {
-              "Common.PropertyName": "id"
-            }
+            "TagName": "EmployeeManag.Web.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.EditEmployee",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1427951791,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.App",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.App"
-        }
-      },
-      {
-        "HashCode": 1748410804,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.App",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManag.Web.App"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.App",
+          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -791,35 +791,35 @@
         }
       },
       {
-        "HashCode": 1007326281,
+        "HashCode": 1427951791,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Shared.NavMenu",
+        "Name": "EmployeeManag.Web.App",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu"
+          "Common.TypeName": "EmployeeManag.Web.App"
         }
       },
       {
-        "HashCode": -1146443938,
+        "HashCode": 1748410804,
         "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Shared.NavMenu",
+        "Name": "EmployeeManag.Web.App",
         "AssemblyName": "EmployeeManag.Web",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "EmployeeManag.Web.Shared.NavMenu"
+            "TagName": "EmployeeManag.Web.App"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Shared.NavMenu",
+          "Common.TypeName": "EmployeeManag.Web.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

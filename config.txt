@@ -1,0 +1,41 @@
+server {
+        listen 80;
+        listen [::]:80;
+        server_name blazor.com;
+        location / {
+                proxy_pass https://localhost:4001;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection keep-alive;
+                proxy_set_header Host $host;
+                proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+                proxy_set_header X-Forwarded-Proto $scheme;
+                proxy_cache_bypass $http_upgrade;
+                fastcgi_buffers 16 16k;
+                fastcgi_buffer_size 32k;
+        }
+}
+this config use in /etc/hosts
+
+#127.0.0.3      blazor.com
+#127.0.0.4      blazor.api
+
+this is use in /etc/systemd/system 
+
+[Unit]
+Description=my first hosting
+
+[Service]
+WorkingDirectory=/var/www/Employee_Api
+ExecStart=/usr/bin/dotnet /var/www/Employee_Api/EmployeeManag.Api.dll 
+Restart=always
+RestartSec=10
+KillSignal=SIGINT
+SyslogIdentifier=my-example-api
+User=goli
+Environment=ASPNETCORE_ENVIRONMENT=Production
+Environment=ASPNETCORE_URLS=http://localhost:6000
+Environment=DOTNET_PRINT_TELEMETRY_MESSAGE=false
+
+[Install]
+WantedBy=multi-user.target
