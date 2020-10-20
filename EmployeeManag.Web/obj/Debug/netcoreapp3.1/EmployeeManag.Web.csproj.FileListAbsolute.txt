@@ -64,3 +64,5 @@
 /home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/Microsoft.JSInterop.dll
 /home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /home/goli/Desktop/Blazor/EmployeeManag.Web/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/goli/Desktop/Blazor/EmployeeManag.Web/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Confirm.razor.g.cs
+/home/goli/Desktop/Blazor/EmployeeManag.Web/obj/Debug/netcoreapp3.1/Razor/Pages/Confirm.razor.g.cs

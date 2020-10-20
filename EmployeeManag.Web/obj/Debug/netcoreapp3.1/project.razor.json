@@ -12,6 +12,61 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": -570903965,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.ConfirmBase",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ConfirmBase"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ConfirmationChange",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmationChange",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.ConfirmBase"
+        }
+      },
+      {
+        "HashCode": -861990213,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.ConfirmBase",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.ConfirmBase"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ConfirmationChange",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmationChange",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.ConfirmBase",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 1728889115,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.CustomInputSelect<TValue>",
@@ -454,111 +509,6 @@
         }
       },
       {
-        "HashCode": -2116471157,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DisplayEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Employee",
-            "TypeName": "EmployeeManag.Models.Employee",
-            "Metadata": {
-              "Common.PropertyName": "Employee"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ShowFooter",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "ShowFooter"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnEmployeeSelection",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
-            "Metadata": {
-              "Common.PropertyName": "OnEmployeeSelection",
-              "Components.EventCallback": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnEmployeeDeleted",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
-            "Metadata": {
-              "Common.PropertyName": "OnEmployeeDeleted",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.DisplayEmployee"
-        }
-      },
-      {
-        "HashCode": 1086595058,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManag.Web.Pages.DisplayEmployee"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Employee",
-            "TypeName": "EmployeeManag.Models.Employee",
-            "Metadata": {
-              "Common.PropertyName": "Employee"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "ShowFooter",
-            "TypeName": "System.Boolean",
-            "Metadata": {
-              "Common.PropertyName": "ShowFooter"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnEmployeeSelection",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
-            "Metadata": {
-              "Common.PropertyName": "OnEmployeeSelection",
-              "Components.EventCallback": "True"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnEmployeeDeleted",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
-            "Metadata": {
-              "Common.PropertyName": "OnEmployeeDeleted",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.DisplayEmployee",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 136770394,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.EditEmployee",
@@ -694,6 +644,166 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "EmployeeManag.Web.Pages.EmployeeList",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1213785646,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.Confirm",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Confirm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ConfirmationChange",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmationChange",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.Confirm"
+        }
+      },
+      {
+        "HashCode": 2113650435,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.Confirm",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.Confirm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ConfirmationChange",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmationChange",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.Confirm",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2116471157,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DisplayEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Employee",
+            "TypeName": "EmployeeManag.Models.Employee",
+            "Metadata": {
+              "Common.PropertyName": "Employee"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowFooter",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowFooter"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeSelection",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeSelection",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeDeleted",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeDeleted",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.DisplayEmployee"
+        }
+      },
+      {
+        "HashCode": 1086595058,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.DisplayEmployee"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Employee",
+            "TypeName": "EmployeeManag.Models.Employee",
+            "Metadata": {
+              "Common.PropertyName": "Employee"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "ShowFooter",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "ShowFooter"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeSelection",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeSelection",
+              "Components.EventCallback": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnEmployeeDeleted",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Int32>",
+            "Metadata": {
+              "Common.PropertyName": "OnEmployeeDeleted",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.DisplayEmployee",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -15393,6 +15503,11 @@
     {
       "FilePath": "/home/goli/Desktop/Blazor/EmployeeManag.Web/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/goli/Desktop/Blazor/EmployeeManag.Web/Pages/Confirm.razor",
+      "TargetPath": "Pages\\Confirm.razor",
       "FileKind": "component"
     },
     {

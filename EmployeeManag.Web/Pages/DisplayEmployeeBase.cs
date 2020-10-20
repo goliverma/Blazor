@@ -19,15 +19,29 @@ namespace EmployeeManag.Web.Pages
         public IEmployeeService EmployeeService { get; set; }
         [Inject]
         public NavigationManager nm { get; set; }
+        protected ConfirmBase DeleteConfirmation { get; set; }
         protected async Task CheckBoxChanged(ChangeEventArgs e)
         {
             await OnEmployeeSelection.InvokeAsync((bool)e.Value);
         }
-        protected async Task Delete_User()
+        protected void Delete_User()
         {
-            await EmployeeService.deleteEmployee(Employee.EmployeeId);
-            await OnEmployeeDeleted.InvokeAsync(Employee.EmployeeId);
+            DeleteConfirmation.Show();
             // nm.NavigateTo("/", true);
         }
+        protected async Task ConfirmDelete_click(bool deleteConfirmed)
+        {
+            if(deleteConfirmed)
+            {
+                await EmployeeService.deleteEmployee(Employee.EmployeeId);
+                await OnEmployeeDeleted.InvokeAsync(Employee.EmployeeId);
+            }
+        }
+        // protected async Task Delete_User()
+        // {
+        //     await EmployeeService.deleteEmployee(Employee.EmployeeId);
+        //     await OnEmployeeDeleted.InvokeAsync(Employee.EmployeeId);
+        //     // nm.NavigateTo("/", true);
+        // }
     }
 }
