@@ -648,61 +648,6 @@
         }
       },
       {
-        "HashCode": 1213785646,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.Confirm",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Confirm"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ConfirmationChange",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
-            "Metadata": {
-              "Common.PropertyName": "ConfirmationChange",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.Confirm"
-        }
-      },
-      {
-        "HashCode": 2113650435,
-        "Kind": "Components.Component",
-        "Name": "EmployeeManag.Web.Pages.Confirm",
-        "AssemblyName": "EmployeeManag.Web",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EmployeeManag.Web.Pages.Confirm"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "ConfirmationChange",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
-            "Metadata": {
-              "Common.PropertyName": "ConfirmationChange",
-              "Components.EventCallback": "True"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "EmployeeManag.Web.Pages.Confirm",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2116471157,
         "Kind": "Components.Component",
         "Name": "EmployeeManag.Web.Pages.DisplayEmployee",
@@ -804,6 +749,61 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "EmployeeManag.Web.Pages.DisplayEmployee",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1213785646,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.Confirm",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Confirm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ConfirmationChange",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmationChange",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.Confirm"
+        }
+      },
+      {
+        "HashCode": 2113650435,
+        "Kind": "Components.Component",
+        "Name": "EmployeeManag.Web.Pages.Confirm",
+        "AssemblyName": "EmployeeManag.Web",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EmployeeManag.Web.Pages.Confirm"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ConfirmationChange",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "ConfirmationChange",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "EmployeeManag.Web.Pages.Confirm",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
