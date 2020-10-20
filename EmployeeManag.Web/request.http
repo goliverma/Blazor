@@ -1,1 +1,7 @@
-GET http://blazor.api/api/employees
+GET http://localhost:4003/employees
+###
+POST https://localhost:4004/employees/
+Content-Type: application/json
+{
+    "FirstName" : "Gaurav"
+}
