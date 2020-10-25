@@ -64,3 +64,5 @@
 /home/goli/Desktop/Blazor/EmployeeManag.Web/obj/release/netcoreapp3.1/EmployeeManag.Web.dll
 /home/goli/Desktop/Blazor/EmployeeManag.Web/obj/release/netcoreapp3.1/EmployeeManag.Web.pdb
 /home/goli/Desktop/Blazor/EmployeeManag.Web/obj/release/netcoreapp3.1/EmployeeManag.Web.genruntimeconfig.cache
+/home/goli/Desktop/Blazor/EmployeeManag.Web/obj/release/netcoreapp3.1/RazorDeclaration/Pages/Confirm.razor.g.cs
+/home/goli/Desktop/Blazor/EmployeeManag.Web/obj/release/netcoreapp3.1/Razor/Pages/Confirm.razor.g.cs
